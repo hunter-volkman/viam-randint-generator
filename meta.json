@@ -1,0 +1,16 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "hunter:randint-generator",
+  "visibility": "public",
+  "url": "https://github.com/hunter-volkman/viam-randint-generator",
+  "description": "Sensor component for random integer data generation",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "hunter:randint-generator:sensor",
+      "short_description": "Sensor component for random integer data generation",
+      "markdown_link": "README.md#model-hunterrandint-generatorsensor"
+    }
+  ],
+  "entrypoint": "run.sh"
+}
